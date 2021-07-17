@@ -13,23 +13,20 @@ Posibles secciones dentro del index (Pagina Principal)
     Cuatros elementos que redirigen a otras vistas.
 
 * Noticias
-    Dos columnas acerca de avisos de la fundacion
+    Dos columnas acerca de avisos de la fundacion // no
 
 * Sueños cumplidos 
-    Contiene imagenes de los proyectos realizados, y videos de personas que lograron su sueños.
+    Contiene imagenes de los proyectos realizados, y videos de personas que lograron su sueños. //andres
 
 * Donde estamos?
-    Informacion de los lugares donde ellos se encuentra
+    Informacion de los lugares donde ellos se encuentra //Reychell;
 
 * Contactenos
-    Contiene un form para contactar.
+    Contiene un form para contactar. //Joshua
 
 * Footer 
     Contiene tres columnas de acerca de, informacion y contactenos.
 
 
 NOTA: 
-> CAMBIAR ICONOS POR OTROS! 
-> USAR BOOSTRAP-4
-> QUITAR LO ELEMENTOS CORRESPONDIENTES A BOOSTRAP
-> DEJAR UN CUADRO DE WHY US? PARA QUIENES SOMOS
+> CAMBIAR IMAGEN DEL 'HERO' POR UNA IMAGEN QUE NO CONTENGA TEXTO
