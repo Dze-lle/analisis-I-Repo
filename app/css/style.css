@@ -2,6 +2,68 @@ html {
   box-sizing: border-box;
 }
 
+.social-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 100;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+
+  .icon:hover {
+      text-decoration: none;
+      color: white;
+  }
+
+.icon-facebook {
+  background: #2E406E;
+}
+
+.icon-phone {
+  background: #427e62;
+}
+
+.icon-whatsapp {
+  background: #25d366;
+}
+
+.icon-envelop {
+  background: #866666;
+}
+
+.icon-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.icon:first-child {
+  border-radius: 0 1rem 0 0;
+}
+
+.icon:last-child {
+  border-radius: 0 0 1rem 0;
+}
+
+.icon:hover {
+  padding-left: 3rem;
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
