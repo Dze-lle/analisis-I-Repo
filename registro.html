@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="app/css/registro.css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container register">
+    <div class="row">
+      <div class="col-md-3 register-left">
+        <img src="app/img/logo2.png" alt="" />
+        <div class="textos">
+          <h3>Bienvenido</h3>
+          <p>Regístrate ahora para pertenecer a la comunidad de la Fundación Costa Rica - Canadá</p>
+        </div>
+        <a class="btn color" href="index.html" name="">Iniciar sesión</a><br />
+      </div>
+      <div class="col-md-9 register-right">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h3 class="register-heading">Crea tu cuenta con los siguientes datos</h3>
+            <div class="row register-form">
+
+              <div class="col-md-6">
+
+                <div class="form-group">
+                  <label for="id">1. Número de Cédula</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card"></i></span>
+                    </div>
+                    <input type="text" tabindex="1" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">2. Nombre</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                    </div>
+                    <input type="text" tabindex="2" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">3. Apellidos</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                    </div>
+                    <input type="text" tabindex="3" id="txtApellidos" name="txtApellidos" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">4. Tipo de Cédula</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card"></i></span>
+                    </div>
+                    <select class="form-control" tabindex="4" id="cbTipoCedula" name="cbTipoCedula">
+                      <option class="hidden">Seleccionar:</option>
+                      <option>Nacional</option>
+                      <option>Extranjero</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">5. Sexo</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-venus-mars"></i></span>
+                    </div>
+                    <input id="txtSexo" type="text" tabindex="5" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">6. Fecha de nacimiento</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+                    </div>
+                    <input id="txtSexo" type="text" tabindex="6" class="form-control" id="txtFechaNac"
+                      name="txtFechaNac">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="id">7. Correo electrónico principal</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                    </div>
+                    <input tabindex="7" type="text" id="txtCorreo1" name="txtCorreo1" class="form-control"
+                      aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">8. Correo electrónico opcional</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
+                    </div>
+                    <input tabindex="8" type="text" id="txtCorreo2" name="txtCorreo2" class="form-control"
+                      aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">9. Teléfono</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone"></i></span>
+                    </div>
+                    <input tabindex="9" type="text" id="txtTelefono" name="txtTelefono" class="form-control"
+                      aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">10. Provincia</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker"></i></span>
+                    </div>
+                    <select class="form-control" tabindex="4" id="cbTipoCedula" name="cbTipoCedula">
+                      <option class="hidden">Seleccionar:</option>
+                      <option>Nacional</option>
+                      <option>Extranjero</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">11. Cantón</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker"></i></span>
+                    </div>
+                    <select class="form-control" tabindex="4" id="cbTipoCedula" name="cbTipoCedula">
+                      <option class="hidden">Seleccionar:</option>
+                      <option>Nacional</option>
+                      <option>Extranjero</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="id">12. Distrito</label>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-map-marker"></i></span>
+                    </div>
+                    <select class="form-control" tabindex="4" id="cbTipoCedula" name="cbTipoCedula">
+                      <option class="hidden">Seleccionar:</option>
+                      <option>Nacional</option>
+                      <option>Extranjero</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <input type="submit" class="btnRegister btn-block" value="Register" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="preloader"></div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
