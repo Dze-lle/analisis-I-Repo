@@ -32,23 +32,23 @@ html {
   }
 
 .icon-facebook {
-  background: #e75c49;
+  background: #cd031d;
 }
 
 .icon-phone {
-  background: #FFBB38;
+  background: #e68f1a;
 }
 
 .icon-whatsapp {
-  background: #e75c49;
+  background: #cd031d;
 }
 
 .icon-envelop {
-  background: #FFBB38;
+  background: #e68f1a;
 }
 
 .icon-instagram {
-  background: #e75c49;
+  background: #cd031d;
 }
 
 .icon:first-child {
@@ -73,7 +73,6 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  overflow-x: hidden;
 }
 
 a:hover {
@@ -100,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1977cc;
+  border: 6px solid #cd031d;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
@@ -133,6 +132,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
+  color: #cd031d;
+}
+
+.back-to-top:hover{
+  color: #cd031d;
 }
 
 
