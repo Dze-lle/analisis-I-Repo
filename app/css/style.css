@@ -501,6 +501,38 @@ section {
   color: #cd031d;
 }
 
+@media (max-width: 768px) {
+
+  .us .text-decoration {
+    margin: .50rem !important;
+  }
+
+  .us .us-item {
+    margin: 0 !important;
+  }
+
+  .us .us-item p {
+    margin: 0 !important;
+    font-size: 0.89rem;
+    text-align: justify !important;
+  }
+  
+  .us .us-item .item-icon {
+    margin: .50rem !important;
+    padding: 0 !important;
+    width: 50px;
+    height: 50px;
+  }
+
+  .us .us-item .item-icon ion-icon {
+    font-size: 24px;
+  }
+
+  .section-title {
+    padding: 0;
+  }
+}
+
 .services .services-box {
   transition: all ease-in-out 0.3s;
   border-radius: 10px;
