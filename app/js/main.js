@@ -4,21 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
-// Inicio carousel
-document.addEventListener('DOMContentLoaded', () => {
-  const elementosCarousel = document.querySelectorAll('.carousel');
-  M.Carousel.init(elementosCarousel, {
-    duration: 20,
-    dist: -220,
-    shift: 5,
-    padding: 5,
-    numVisible: 7,
-    indicators: true,
-    noWrap: false
-  });
-});
-
 !(function($) {
   "use strict";
 
@@ -63,8 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
-
-
 
   // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
@@ -202,7 +185,5 @@ document.addEventListener('DOMContentLoaded', () => {
       autoclose: true
     });
   });
-
- 
 
 })(jQuery);
