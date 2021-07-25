@@ -749,10 +749,6 @@ section {
 
 #footer {
   font-size: 0.83rem;
-  background-image: url('../img/world-map.png');
-  background-repeat: inherit;
-  background-size: inherit;
-  background-attachment: fixed;
   background-color: #171717;
   letter-spacing: .05rem;
 }
