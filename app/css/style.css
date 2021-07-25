@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   z-index: 99999;
   background-color: #171717;
-  border-radius: 50%;
+  border-radius: 0.25rem;
   color: #fff;
   font-size: 26px;
   padding: .20rem .50rem 0 .50rem;
