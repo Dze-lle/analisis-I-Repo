@@ -1,0 +1,106 @@
+h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.textos-header {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+    height: 110px;
+}
+
+.card {
+    border-radius: 0.50rem !important;
+    overflow: hidden;
+    height: 33vh;
+}
+
+.card .card-body {
+    padding-left: 3rem;
+}
+
+.card .card-text {
+    font-size: .85rem;
+    text-align: justify;
+}
+
+.card .img-bono {
+    background: linear-gradient(90deg, #cd031e98 0%, #cd031e65 50%, #cd031e65 100%), 
+    url('../img/of-bono.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: left left;
+    transition: 500ms;
+}
+
+.card .img-house {
+    background: linear-gradient(360deg, #1f1d1ec0 100%, #1f1d1eb4 100%, #1f1d1eb4 100%), 
+    url('../img/of-bono-house.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: left;
+}
+
+.card .img-credit {
+    background: linear-gradient(360deg, #1f1d1ec0 100%, #1f1d1eb4 100%, #1f1d1eb4 100%), 
+    url('../img/of-bono-credit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.card .img-family {
+    background: linear-gradient(90deg, #cd031e65 0%, #cd031e65 50%, #cd031e65 100%), 
+    url('../img/of-bono-family.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.card .img-personal {
+    background: linear-gradient(90deg, #cd031e65 0%, #cd031e65 50%, #cd031e65 100%), 
+    url('../img/of-personal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: left;
+}
+
+.card .card-body .btn-info {
+    font-weight: bolder;
+    margin-left: 25px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #cd031d;
+    background-color: #fff;
+  }
+  
+.card .card-body .btn-info:hover {
+    border: 1px solid #cd031d;
+    background: #cd031d;
+    color: #fff;
+}
+
+.list-group .list-group-item {
+    border: none;
+    background-color: inherit;
+}
+
+.modal-body p {
+    font-size: .90rem;
+}
+
+.modal-body .content .body-title h4 {
+    font-size: .85rem;
+}
+
+.modal-body .content ul {
+    font-size: .75rem;
+}
+
+
+
+
