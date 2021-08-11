@@ -13,7 +13,13 @@ h1, h2, h3, h4, h5 {
 .card {
     border-radius: 0.50rem !important;
     overflow: hidden;
-    height: 33vh;
+    height: 35vh;
+}
+
+@media only screen and (max-width: 650px) {
+    .card {
+        height: 40vh;
+    }
 }
 
 .card .card-body {
@@ -90,14 +96,42 @@ h1, h2, h3, h4, h5 {
 }
 
 .modal-body p {
-    font-size: .90rem;
+    font-size: .75rem;
 }
 
-.modal-body .content .body-title h4 {
+.modal-body .content .content-left {
+    width: 14%;
+    margin-left: 1rem;
+    /* border-right: 2px solid #cd031d; */
+}
+
+.modal-body .content .content-left .body-title h4 {
     font-size: .85rem;
 }
 
-.modal-body .content ul {
+.modal-body .content .content-left .icon-content {
+    border-radius: 50%;
+    border: 1px solid #cd031d;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.modal-body .content .content-left .icon-content ion-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #cd031d;
+}
+
+.modal-body .content .content-right {
+}
+
+.modal-body .content .content-right ul {
     font-size: .75rem;
 }
 

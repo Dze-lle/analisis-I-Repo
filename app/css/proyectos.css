@@ -1,0 +1,134 @@
+.info span{
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    background: #FF3434;
+    margin-bottom: 30px;
+}
+.info div.main{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.containerr{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+.imag{
+    width: 100%;
+}
+.info h2{
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0 0 15px;
+    text-align:center;
+}
+.info p{
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 30px 0;
+}
+
+.info div.imag {
+    height: 300px;
+    width: 100%;
+    background-image: url("http://www.fundacioncostaricacanada.org/fcrcan/images/Fundacion/Proyectos/Proyectos_realizados.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.info div.imag2{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1625722776951-39123efa4dc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHByb2plY3RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+}
+.info div.text-containerr{
+    margin: 60px 45px 55px;
+}
+@media screen and (min-width: 768px){
+   div.containerr{
+        width: 100%;
+        flex-direction: row;
+    }
+    div.imag{
+        min-width: 360px;
+        height: 520px;
+    }
+    div.imag2{
+        min-width: 360px;
+        height: 520px;
+    }
+     div.text-containerr{
+        margin: 0 60px;
+        max-width: 660px;
+    }
+}
+@media screen and (min-width: 1024px){
+    div.containerr{
+        max-width: 1100px;
+    }
+}
+
+
+.ov-btn-slide-right {
+    background: #fff; 
+    color: red; 
+    border: 2px solid red; 
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+   margin-left: 50px;
+  }
+  .ov-btn-slide-right:hover {
+    color: #fff; 
+  }
+  .ov-btn-slide-right::after {
+    content: "";
+    background: red; 
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: -100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .info h3{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+  .ov-btn-slide-right:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  
+
+
+.info h1{
+margin-top: 100px;
+text-align:center;
+margin-bottom: 5px;
+}
+  
+  
+  
+  
