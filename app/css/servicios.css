@@ -79,7 +79,7 @@
  }
  
  .plataforma {
-   height: 88vh;
+   height: 60vh;
  }
  
  .plataforma .plataforma-box {
@@ -203,7 +203,7 @@
  }
 
  .carousel-indicators li{
-     background: rgb(245, 200, 116);
+     background: rgb(253, 190, 174);
      border-radius: 50%;
      width: 15px;
      height: 15px;
