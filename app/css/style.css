@@ -32,7 +32,7 @@ html {
 }
 
 .icon-phone {
-  background: #e68f1a;
+  background:  #333333;
 }
 
 .icon-whatsapp {
@@ -40,7 +40,7 @@ html {
 }
 
 .icon-envelop {
-  background: #e68f1a;
+  background:  #333333;
 }
 
 .icon-instagram {
@@ -64,6 +64,47 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.texto{
+ text-align: justify;
+}
+
+.centro{
+  text-align: center;
+}
+
+
+.margin{
+  padding: 7rem 0 0 0;
+}
+
+.margin2{
+  padding: 2rem 0 0 0;
+}
+
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+   
+    border-left: 0.5rem solid #cd031d;
+  }
+}
+.projects-section .project-text {
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #cd031d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
 }
 
 body {
@@ -465,7 +506,7 @@ section {
 }
 
 .us {
-  box-shadow: 0px 2px 15px rgba(204, 25, 25, 0.1);
+  /* box-shadow: 0px 2px 15px rgba(204, 25, 25, 0.1); */
 }
 
 .us .text-decoration {
@@ -534,16 +575,21 @@ section {
   }
 }
 
+.services {
+  height: 70vh;
+}
+
 .services .services-box {
   transition: all ease-in-out 0.3s;
   border-radius: 10px;
   box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
   margin: 0 auto;
   height: 300px;
+  background-color: #fff;
 }
 
 .services .services-box:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .services .services-box img {  
@@ -786,3 +832,57 @@ section {
   margin-right: .25rem;
 }
 
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0%;
+  margin-top: var(--bs-gutter-y);
+}
+
+.der{
+ padding-right: 0%;
+}
+
+.der2{
+  padding-right: 0.00001%;
+}
+
+
+.contact-section {
+  padding-top: 5rem;
+}
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+.contact-section .card h4, .contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .social {
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: #fff;
+}

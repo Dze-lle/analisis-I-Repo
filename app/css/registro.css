@@ -1,6 +1,6 @@
 body{
   font-family: 'Open Sans';
-  background-image: url(../img/fondo-re.jpg);
+  background: linear-gradient(90deg, #1f1d1e83 0%, #1f1d1e83 50%, #1f1d1e83 100%), url(../img/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,16 +22,16 @@ body{
   padding: 2%;
   width: 60%;
   font-weight: bold;
-  color: #383d41;
-  margin-top: 30%;
   margin-bottom: 3%;
   cursor: pointer;
   color: white;
+  margin-bottom: 10%;
 }
 
-.register-left a:hover {
-  color: black;
+.botones{
+  margin-top: 20%;
 }
+
 
 .register-right {
   background: rgba(255, 255, 255, 0.900);
@@ -103,11 +103,25 @@ body{
 }
 
 .btnRegister:hover{
-  background: #e68f1a;
+  background-color: #333333;
 }
 
 .color{
   background-color: #cd031d;
+}
+
+.color:hover {
+  background-color: #333333;
+  color: white;
+  }
+
+.color2{
+  background-color: #333333;
+}
+
+.color2:hover {
+  background-color: #cd031d;
+  color: white;
 }
 
 .register .nav-tabs {
